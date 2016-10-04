@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-R = float(input("Ratio: "))
+R = float(input())
 
-A = R*R * 3.14159
+A = (R*R) * 3.14159
 
 print "A=%.4f" % A
