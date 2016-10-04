@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+
+name = raw_input("")
+salary = float(input())
+sale = float(input())
+
+total = salary + (sale * 15/100)
+
+print "TOTAL = R$ %.2f" % total
