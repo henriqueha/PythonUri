@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+
+pi = 3.14159
+
+radius = float(input())
+
+volume = pi * (4.0 / 3) * (float(radius)**3)
+
+print ("VOLUME = %.3f" % volume)
